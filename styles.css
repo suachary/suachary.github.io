@@ -1,0 +1,216 @@
+            
+        /* Setting body back ground color */    
+            body {
+                background-color:powderblue;
+                margin: 0;
+                padding: 0;
+            }
+        /* Styling the main heading */
+            h1 {
+                color: black;
+                font-family:verdana;
+                font-weight:bolder;
+                font-size: 30px;
+            }
+        /*Styling second heading */
+            h2 {
+                color: black;
+                font-family:verdana;
+                font-weight:bolder;
+                font-size: 20px;
+            }
+        /*Styling for paragraphs */
+            p  {
+                color: black;
+                font-size:16px;
+                font-weight:lighter;
+            }
+    
+        /*Styling for images */ 
+        /*Image element beigns here */ 
+            image1{
+                display:block;
+                margin: 0 auto;
+            }
+            image2{
+                display:block;
+                margin: 0 auto;
+            }
+            image3{
+                display:block;
+                margin: 0 auto;
+            }
+            image4{
+                display:block;
+                margin: 0 auto;
+            }
+            image5{
+                display:block;
+                margin: 0 auto;
+            }
+        /*Image element ends here */
+        
+        /*Styling the class=id */
+            #SushmitaAcharya {
+                color:white;
+                padding: 30px;
+                text-align: center;
+            }
+        /* Styling the date element */
+            .date-1 {
+                float:right;
+                font-weight: bold;
+                margin-left:20px;
+
+            }
+            .date-2{
+                float:right;
+                font-weight:bold;
+                margin-left:20px;
+            }
+            .date-3{
+                float:right;
+                font-weight:bold;
+                margin-left:20px;
+            }
+
+        /*Styling for text-1 element */ 
+            .with-right-text-1{
+                position: relative;
+            }
+            .right-corner-text-1{
+                position: absolute;
+                top:0;
+                right:0;
+                font-style:italic;
+
+            }
+        /*Styling for text-2 element */ 
+            .with-right-text-2{
+                position: relative;
+            }
+            .right-corner-text-2{
+                position:absolute;
+                top:0;
+                right:0;
+                font-style:italic;
+            }
+        /*Styling for text-3 element */ 
+            .with-right-text-3{
+                position: relative;
+            }
+            .right-corner-text-3{
+                position:absolute;
+                top:0;
+                right:0;
+                font-style:italic;
+            }
+        /* Styling unordered square list */
+            ul.a {
+                list-style-type: square;
+            }
+        /*Styling for ordered upperroman list */
+            ol.c {
+                list-style-type: upper-roman;
+            }
+        /*Styling for container element */
+            .container-1{
+                max-width: 500px;
+                margin: 0 auto;
+                padding: 10px;
+            }
+            .container-2{
+                max-width: 500px;
+                margin: 0 auto;
+                padding:10px;
+            }
+            /* Styling for navigation-1 links */
+            .nav-1{
+                text-align: center;
+                display: flex;
+                align-items: center;
+            }
+
+            .nav-1 ul{
+                list-style-type: none;
+                margin:0;
+                padding: 20px;
+                
+            }
+            .nav-1 ul li{
+                display:inline;
+                margin: 30px;
+            }
+            .nav-1 ul li a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+            .nav-1 ul li a:hover{
+                text-decoration: underline;
+            }
+            /* Styling for navigation-1 links */
+            .nav-2{
+                background-color:lightseagreen;
+                color: blue;
+                text-align: center;
+            }
+
+            .nav-2 ul{
+                list-style-type: none;
+                margin:0;
+                padding: 50px;
+            }
+            .nav-2 ul li{
+                display:inline;
+                margin: 10px;
+            }
+            .nav-2 ul li a{
+                text-decoration: none;
+                color:black;
+                font-size: 20px;
+            }
+            .nav-2 ul li a:hover{
+                text-decoration: underline;
+            }
+            /* Additional CSS rule */
+            .flex{
+                display: flex;
+            }
+        .justify-between {
+            justify-content: space-between; /*Justifying the space of the content between items */
+        }
+        /*Styling for navbar and container */
+        .navbar {
+            background-color: #205157;  
+            margin-bottom: 20px;          
+        }
+
+        .container {
+            padding: 0 20px;
+        }
+        /* Styling for information element */
+        .information {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 40px;
+        }
+
+        .information h1 {
+            font-size: 50px;
+        }
+        .information p {
+            font-size: 28px;
+            margin-top: 0;
+        }
+        /*Styling the link element */
+        .link{
+            text-decoration: none;
+            background-color: #205157;
+            color: white;
+            width: fit-content;
+            padding: 10px;
+            font-size: 24px;
+            border: 4px;
+        }
